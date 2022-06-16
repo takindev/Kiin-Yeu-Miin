@@ -34,6 +34,35 @@ body{
 	background-color: rgba(0, 0, 0, 0.6);
 }
 .textp{
+	position: absolute;
+	transform: translate(-50%,-50%);
+	left: 50%;
 	font-size: 25px;
-
+	top: 25%;
+}
+.inputp{
+	position: absolute;
+	transform: translate(-50%,-50%);
+	left: 50%;
+	width: 250px;
+	padding: 10px 0;
+	top: 50%;
+	color: black;
+	border: none;
+	border-radius: 10px;
+	z-index: 2;
+}
+.buttonp{
+	position: absolute;
+	transform: translate(-50%,-50%);
+	left: 50%;
+	width: 100px;
+	height: 50px;
+	padding: 10px 0;
+	top: 67%;
+	color: white;
+	border: none;
+	border-radius: 10px;
+	z-index: 1;
+	background-color: rgba(0, 0, 0, 0.8);
 }
