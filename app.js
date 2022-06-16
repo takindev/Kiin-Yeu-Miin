@@ -10,7 +10,7 @@ function openn(){
 };
 // formpass
 function tiep(){
-	var key = ''
+	var key = '20032022'
 	var pass = document.getElementById('inputp').value;
 	if (key==pass) {
 		var form = document.getElementById('formpass').style;
