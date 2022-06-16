@@ -3,10 +3,10 @@ function openn(){
 	var form = document.getElementById('open').style;
 	form.transition = '1s';
 	form.top = '-100%';
-
-	var form = document.getElementById('formpass').style;
-	form.transition = '1s';
-	form.top = '50%';
+	
+	var main = document.getElementById('main').style;
+		main.transition = '1s';
+		main.top = '50%';
 };
 // formpass
 function tiep(){
